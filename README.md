@@ -101,7 +101,7 @@ PASTA (*Process for Attack Simulation and Threat Analysis*) is a **risk-centric,
 
 | Dimension | Traditional Approach | PASTA (Risk-Centric) |
 |-----------|---------------------|----------------------|
-| Starting point | Architecture / DFD | Business Objectives (Stage I) |
+| Starting point | Architecture / C4 | Business Objectives (Stage I) |
 | Dominant perspective | Technical / software-centric | Business + technical + threat |
 | Risk quantification | Qualitative or absent | Formula: `RS = (PV × PA × I) / C` |
 | Primary output | Threat list + mitigations | Quantified residual risk profile |
