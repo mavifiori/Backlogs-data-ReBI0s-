@@ -23,9 +23,9 @@
 
 | Role | Name | Institution |
 |------|------|-------------|
-| **Researcher / Facilitator** | Maria Victoria Soares Fiori | UNICAMP — Instituto de Computação |
-| **Advisor** | Prof. Dr. Breno Bernard Nicolau de França | UNICAMP — Instituto de Computação |
-| **Co-Advisor** | Prof. Dr. José Alexandre D'Abruzzo Pereira | UNICAMP — Instituto de Computação |
+| ** Facilitator** | Maria Victoria Soares Fiori | UNICAMP — Instituto de Computação |
+| **Orientador** | Prof. Dr. Breno Bernard Nicolau de França | UNICAMP — Instituto de Computação |
+| **Co-Orientador** | Prof. Dr. José Alexandre D'Abruzzo Pereira | UNICAMP — Instituto de Computação |
 
 **Universidade Estadual de Campinas (UNICAMP)**  
 Instituto de Computação — Campinas, SP, Brazil
