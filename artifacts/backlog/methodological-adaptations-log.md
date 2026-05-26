@@ -4,7 +4,7 @@
 > **Research:** Assessing Architectural Security in Scientific Repositories: An Action-Research Approach  
 > **Institution:** UNICAMP — Instituto de Computação  
 > **Purpose:** This log documents every decision taken when adapting the standard PASTA methodology  
-> to the reBi0s context — fulfilling the backlog item: *"criar um log de todas as etapas: use original, adaptei/exclui e pq"*
+
 
 ---
 
