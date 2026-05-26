@@ -1,0 +1,49 @@
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Sensitive data — NEVER commit credentials
+*.env
+.env.*
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large binary files (use Git LFS if needed)
+*.pdf
+!docs/presentation/*.pptx
+
+# OS
+*.log
+*.tmp

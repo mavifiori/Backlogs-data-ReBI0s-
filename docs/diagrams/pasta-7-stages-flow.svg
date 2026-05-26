@@ -1,0 +1,407 @@
+<svg viewBox="0 0 1400 980" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1400" height="980" fill="#F4F8FB"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1400" height="62" fill="#0D1B2A"/>
+  <text x="700" y="22" text-anchor="middle" fill="#5FA8D3" font-size="11" font-weight="bold" letter-spacing="3">PASTA — PROCESS FOR ATTACK SIMULATION AND THREAT ANALYSIS</text>
+  <text x="700" y="46" text-anchor="middle" fill="white" font-size="18" font-weight="bold">7-Stage Risk-Centric Threat Modeling Process — reBi0s Application</text>
+
+  <!-- Subtitle -->
+  <text x="700" y="76" text-anchor="middle" fill="#7A8FA6" font-size="11">UcedaVélez &amp; Morana (2015) · Applied to: Apache Spark · Airflow · PostgreSQL · DataHub · Kubernetes</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- LAYER LABELS -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="10" y="90" width="395" height="22" fill="#1B4965" rx="3"/>
+  <text x="207" y="105" text-anchor="middle" fill="white" font-size="10" font-weight="bold" letter-spacing="2">BUSINESS LAYER</text>
+
+  <rect x="415" y="90" width="580" height="22" fill="#6B3FA0" rx="3"/>
+  <text x="705" y="105" text-anchor="middle" fill="white" font-size="10" font-weight="bold" letter-spacing="2">TECHNICAL LAYER</text>
+
+  <rect x="1005" y="90" width="385" height="22" fill="#1A7A4A" rx="3"/>
+  <text x="1197" y="105" text-anchor="middle" fill="white" font-size="10" font-weight="bold" letter-spacing="2">RISK LAYER</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- STAGE BOXES — Row 1 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- STAGE I -->
+  <rect x="10" y="120" width="185" height="42" fill="#1B4965" rx="4"/>
+  <text x="102" y="136" text-anchor="middle" fill="#A8D5F0" font-size="9" font-weight="bold">Stage I</text>
+  <text x="102" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Definition of Objectives</text>
+  <rect x="10" y="162" width="185" height="160" fill="#EAF4FB" rx="0 0 4 4" stroke="#1B4965" stroke-width="1"/>
+
+  <!-- Stage I content -->
+  <text x="20" y="180" fill="#1B4965" font-size="9" font-weight="bold">DO — Activities:</text>
+  <text x="20" y="196" fill="#1A2B3C" font-size="8.5">1.1 Business Requirements</text>
+  <text x="20" y="210" fill="#1A2B3C" font-size="8.5">1.2 Security Requirements</text>
+  <text x="20" y="224" fill="#1A2B3C" font-size="8.5">1.3 Business Impact Analysis</text>
+  <text x="20" y="238" fill="#1A2B3C" font-size="8.5">1.4 Inherent Risk Profile</text>
+  <line x1="20" y1="248" x2="185" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="20" y="262" fill="#1B4965" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="20" y="276" fill="#2C5282" font-size="8">▸ 11 security requirements</text>
+  <text x="20" y="289" fill="#2C5282" font-size="8">▸ BIA (CIA — 10 risks)</text>
+  <text x="20" y="302" fill="#2C5282" font-size="8">▸ 7 risk scenarios</text>
+  <text x="20" y="315" fill="#2C5282" font-size="8">▸ LGPD + UNICAMP scope</text>
+
+  <!-- Arrow I → II -->
+  <polygon points="200,196 214,196 214,192 222,200 214,208 214,204 200,204" fill="#1B4965"/>
+
+  <!-- STAGE II -->
+  <rect x="222" y="120" width="185" height="42" fill="#1D6A8C" rx="4"/>
+  <text x="314" y="136" text-anchor="middle" fill="#A8D5F0" font-size="9" font-weight="bold">Stage II</text>
+  <text x="314" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Technical Scope (DTS)</text>
+  <rect x="222" y="162" width="185" height="160" fill="#EAF4FB" rx="0 0 4 4" stroke="#1D6A8C" stroke-width="1"/>
+
+  <text x="232" y="180" fill="#1D6A8C" font-size="9" font-weight="bold">DTS — Activities:</text>
+  <text x="232" y="196" fill="#1A2B3C" font-size="8.5">2.1 Enumerate Software Components</text>
+  <text x="232" y="210" fill="#1A2B3C" font-size="8.5">2.2 Actors &amp; Data Sinks/Sources</text>
+  <text x="232" y="224" fill="#1A2B3C" font-size="8.5">2.3 System-Level Services</text>
+  <text x="232" y="238" fill="#1A2B3C" font-size="8.5">2.4 Third-Party Infrastructures</text>
+  <line x1="232" y1="248" x2="397" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="232" y="262" fill="#1D6A8C" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="232" y="276" fill="#2C5282" font-size="8">▸ C4 Model diagrams (×3)</text>
+  <text x="232" y="289" fill="#2C5282" font-size="8">▸ Tech stack: Spark, Airflow,</text>
+  <text x="240" y="302" fill="#2C5282" font-size="8">  DataHub, K8s, MinIO...</text>
+  <text x="232" y="315" fill="#2C5282" font-size="8">▸ Data flow documentation</text>
+
+  <!-- Arrow II → III -->
+  <polygon points="412,196 426,196 426,192 434,200 426,208 426,204 412,204" fill="#1D6A8C"/>
+
+  <!-- STAGE III -->
+  <rect x="434" y="120" width="185" height="42" fill="#1A7A6E" rx="4"/>
+  <text x="526" y="136" text-anchor="middle" fill="#A8D5F0" font-size="9" font-weight="bold">Stage III</text>
+  <text x="526" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">App. Decomposition (ADA)</text>
+  <rect x="434" y="162" width="185" height="160" fill="#EAF4FB" rx="0 0 4 4" stroke="#1A7A6E" stroke-width="1"/>
+
+  <text x="444" y="180" fill="#1A7A6E" font-size="9" font-weight="bold">ADA — Activities:</text>
+  <text x="444" y="196" fill="#1A2B3C" font-size="8.5">3.1 Application Use Cases</text>
+  <text x="444" y="210" fill="#1A2B3C" font-size="8.5">3.2 Data Flow Diagrams (DFD)</text>
+  <text x="444" y="224" fill="#1A2B3C" font-size="8.5">3.3 Security Analysis &amp;</text>
+  <text x="444" y="236" fill="#1A2B3C" font-size="8.5">    Trust Boundaries</text>
+  <line x1="444" y1="248" x2="609" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="444" y="262" fill="#1A7A6E" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="444" y="276" fill="#2C5282" font-size="8">▸ 6 interaction scenarios</text>
+  <text x="444" y="289" fill="#2C5282" font-size="8">▸ 4 Trust Boundaries</text>
+  <text x="444" y="302" fill="#2C5282" font-size="8">▸ Component-actor mapping</text>
+  <text x="444" y="315" fill="#2C5282" font-size="8">▸ Threat scenario context</text>
+
+  <!-- Arrow III → IV -->
+  <polygon points="624,196 638,196 638,192 646,200 638,208 638,204 624,204" fill="#1A7A6E"/>
+
+  <!-- STAGE IV -->
+  <rect x="646" y="120" width="185" height="42" fill="#6B3FA0" rx="4"/>
+  <text x="738" y="136" text-anchor="middle" fill="#D4B8F0" font-size="9" font-weight="bold">Stage IV</text>
+  <text x="738" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Threat Analysis (TA)</text>
+  <rect x="646" y="162" width="185" height="160" fill="#F5F0FF" rx="0 0 4 4" stroke="#6B3FA0" stroke-width="1"/>
+
+  <text x="656" y="180" fill="#6B3FA0" font-size="9" font-weight="bold">TA — Activities:</text>
+  <text x="656" y="196" fill="#1A2B3C" font-size="8.5">4.1 Threat Scenario Analysis</text>
+  <text x="656" y="210" fill="#1A2B3C" font-size="8.5">4.2/4.3 Threat Intelligence</text>
+  <text x="656" y="224" fill="#1A2B3C" font-size="8.5">4.4 Update Threat Library</text>
+  <text x="656" y="238" fill="#1A2B3C" font-size="8.5">4.5/4.6 Probabilities</text>
+  <line x1="656" y1="248" x2="821" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="656" y="262" fill="#6B3FA0" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="656" y="276" fill="#44337A" font-size="8">▸ Threat Library T01–T15</text>
+  <text x="656" y="289" fill="#44337A" font-size="8">▸ OWASP Web + Data Sec.</text>
+  <text x="656" y="302" fill="#44337A" font-size="8">▸ STRIDE categories</text>
+  <text x="656" y="315" fill="#44337A" font-size="8">▸ Probabilistic values</text>
+
+  <!-- Arrow IV → V -->
+  <polygon points="836,196 850,196 850,192 858,200 850,208 850,204 836,204" fill="#6B3FA0"/>
+
+  <!-- STAGE V -->
+  <rect x="858" y="120" width="185" height="42" fill="#8B5E3C" rx="4"/>
+  <text x="950" y="136" text-anchor="middle" fill="#F0D5B8" font-size="9" font-weight="bold">Stage V</text>
+  <text x="950" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Weakness &amp; Vuln. (WVA)</text>
+  <rect x="858" y="162" width="185" height="160" fill="#FFF8F0" rx="0 0 4 4" stroke="#8B5E3C" stroke-width="1"/>
+
+  <text x="868" y="180" fill="#8B5E3C" font-size="9" font-weight="bold">WVA — Activities:</text>
+  <text x="868" y="196" fill="#1A2B3C" font-size="8.5">5.1 Review Vulnerability Data</text>
+  <text x="868" y="210" fill="#1A2B3C" font-size="8.5">5.2 Weak Design Patterns</text>
+  <text x="868" y="224" fill="#1A2B3C" font-size="8.5">5.3 Map Threats → Vulns</text>
+  <text x="868" y="238" fill="#1A2B3C" font-size="8.5">5.4/5.5 Context Risk Analysis</text>
+  <line x1="868" y1="248" x2="1033" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="868" y="262" fill="#8B5E3C" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="868" y="276" fill="#7B341E" font-size="8">▸ SonarQube: 40 issues</text>
+  <text x="868" y="289" fill="#B83232" font-size="8.5" font-weight="bold">▸ 4 BLOCKER vulns found</text>
+  <text x="868" y="302" fill="#7B341E" font-size="8">▸ Vuln-Threat matrix</text>
+  <text x="868" y="315" fill="#7B341E" font-size="8">▸ Contextual risk / scenario</text>
+
+  <!-- Arrow V → VI -->
+  <polygon points="1048,196 1062,196 1062,192 1070,200 1062,208 1062,204 1048,204" fill="#8B5E3C"/>
+
+  <!-- STAGE VI -->
+  <rect x="1070" y="120" width="155" height="42" fill="#B83232" rx="4"/>
+  <text x="1147" y="136" text-anchor="middle" fill="#FFB8B8" font-size="9" font-weight="bold">Stage VI</text>
+  <text x="1147" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Attack Modeling (AMS)</text>
+  <rect x="1070" y="162" width="155" height="160" fill="#FFF0F0" rx="0 0 4 4" stroke="#B83232" stroke-width="1"/>
+
+  <text x="1080" y="180" fill="#B83232" font-size="9" font-weight="bold">AMS — Activities:</text>
+  <text x="1080" y="196" fill="#1A2B3C" font-size="8.5">6.1 Update Attack Library</text>
+  <text x="1080" y="210" fill="#1A2B3C" font-size="8.5">6.2 Attack Surface / Vectors</text>
+  <text x="1080" y="224" fill="#1A2B3C" font-size="8.5">6.3 Prob. &amp; Impact Scenarios</text>
+  <text x="1080" y="238" fill="#1A2B3C" font-size="8.5">6.4/6.5 Tests &amp; Simulation</text>
+  <line x1="1080" y1="248" x2="1215" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="1080" y="262" fill="#B83232" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="1080" y="276" fill="#7B2020" font-size="8">▸ 10 CAPEC attack cases</text>
+  <text x="1080" y="289" fill="#7B2020" font-size="8">▸ 6 simulation results</text>
+  <text x="1080" y="302" fill="#7B2020" font-size="8">▸ Test artifacts (6 files)</text>
+  <text x="1080" y="315" fill="#7B2020" font-size="8">▸ Countermeasure test cases</text>
+
+  <!-- Arrow VI → VII -->
+  <polygon points="1230,196 1244,196 1244,192 1252,200 1244,208 1244,204 1230,204" fill="#B83232"/>
+
+  <!-- STAGE VII -->
+  <rect x="1252" y="120" width="138" height="42" fill="#1A7A4A" rx="4"/>
+  <text x="1321" y="136" text-anchor="middle" fill="#A8E6C0" font-size="9" font-weight="bold">Stage VII</text>
+  <text x="1321" y="152" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Risk &amp; Impact (RIA)</text>
+  <rect x="1252" y="162" width="138" height="160" fill="#F0FFF8" rx="0 0 4 4" stroke="#1A7A4A" stroke-width="1"/>
+
+  <text x="1262" y="180" fill="#1A7A4A" font-size="9" font-weight="bold">RIA — Activities:</text>
+  <text x="1262" y="196" fill="#1A2B3C" font-size="8.5">7.1 Calculate Risk Scores</text>
+  <text x="1262" y="210" fill="#1A2B3C" font-size="8.5">7.2 Identify Countermeasures</text>
+  <text x="1262" y="224" fill="#1A2B3C" font-size="8.5">7.3 Residual Risk (RR)</text>
+  <text x="1262" y="238" fill="#1A2B3C" font-size="8.5">7.4 Risk Strategy</text>
+  <line x1="1262" y1="248" x2="1380" y2="248" stroke="#CBD5E0" stroke-width="1"/>
+  <text x="1262" y="262" fill="#1A7A4A" font-size="8.5" font-weight="bold">Outputs (reBi0s):</text>
+  <text x="1262" y="276" fill="#145C36" font-size="8">▸ RR: T01=1.26 🔴</text>
+  <text x="1262" y="289" fill="#145C36" font-size="8">▸ 13 Mitigate / 2 Accept</text>
+  <text x="1262" y="302" fill="#145C36" font-size="8">▸ Countermeasures roadmap</text>
+  <text x="1262" y="315" fill="#145C36" font-size="8">▸ Final Risk Report</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- ARTIFACT TRACEABILITY ROW -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <text x="700" y="358" text-anchor="middle" fill="#0D1B2A" font-size="13" font-weight="bold">ARTIFACT TRACEABILITY — INPUTS &amp; OUTPUTS PER STAGE</text>
+
+  <!-- Artifact boxes -->
+  <!-- S1 artifact -->
+  <rect x="10" y="368" width="185" height="78" fill="white" rx="4" stroke="#1B4965" stroke-width="1.5"/>
+  <rect x="10" y="368" width="185" height="20" fill="#1B4965" rx="4 4 0 0"/>
+  <text x="102" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">📄 Backlog + BIA</text>
+  <text x="20" y="402" fill="#1A2B3C" font-size="8">phase-1-objectives/</text>
+  <text x="20" y="416" fill="#1A2B3C" font-size="8">security-requirements-backlog.md</text>
+  <text x="20" y="430" fill="#1A2B3C" font-size="8">artifacts/risk-analysis/bia-matrix</text>
+  <text x="20" y="438" fill="#7A8FA6" font-size="8">→ feeds: IV, VII</text>
+
+  <!-- S2 artifact -->
+  <rect x="222" y="368" width="185" height="78" fill="white" rx="4" stroke="#1D6A8C" stroke-width="1.5"/>
+  <rect x="222" y="368" width="185" height="20" fill="#1D6A8C" rx="4 4 0 0"/>
+  <text x="314" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">📊 C4 Diagrams + Stack</text>
+  <text x="232" y="402" fill="#1A2B3C" font-size="8">phase-2-technical-scope/</text>
+  <text x="232" y="416" fill="#1A2B3C" font-size="8">docs/images/diagrama1/2/3.png</text>
+  <text x="232" y="430" fill="#1A2B3C" font-size="8">docs/images/fluxo-arquitetura.png</text>
+  <text x="232" y="438" fill="#7A8FA6" font-size="8">→ feeds: III, IV, V</text>
+
+  <!-- S3 artifact -->
+  <rect x="434" y="368" width="185" height="78" fill="white" rx="4" stroke="#1A7A6E" stroke-width="1.5"/>
+  <rect x="434" y="368" width="185" height="20" fill="#1A7A6E" rx="4 4 0 0"/>
+  <text x="526" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">📋 Scenarios + Boundaries</text>
+  <text x="444" y="402" fill="#1A2B3C" font-size="8">phase-3-application-decomposition/</text>
+  <text x="444" y="416" fill="#1A2B3C" font-size="8">interaction-scenarios.md (C1–C6)</text>
+  <text x="444" y="430" fill="#1A2B3C" font-size="8">trust-boundaries.md</text>
+  <text x="444" y="438" fill="#7A8FA6" font-size="8">→ feeds: IV, V, VI</text>
+
+  <!-- S4 artifact -->
+  <rect x="646" y="368" width="185" height="78" fill="white" rx="4" stroke="#6B3FA0" stroke-width="1.5"/>
+  <rect x="646" y="368" width="185" height="20" fill="#6B3FA0" rx="4 4 0 0"/>
+  <text x="738" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">📑 Threat Library T01–T15</text>
+  <text x="656" y="402" fill="#1A2B3C" font-size="8">phase-4-threat-analysis/</text>
+  <text x="656" y="416" fill="#1A2B3C" font-size="8">artifacts/threat-modeling/</text>
+  <text x="656" y="430" fill="#1A2B3C" font-size="8">fase_4_5_6_7.xlsx (TA sheets)</text>
+  <text x="656" y="438" fill="#7A8FA6" font-size="8">→ feeds: V, VI, VII</text>
+
+  <!-- S5 artifact -->
+  <rect x="858" y="368" width="185" height="78" fill="white" rx="4" stroke="#8B5E3C" stroke-width="1.5"/>
+  <rect x="858" y="368" width="185" height="20" fill="#8B5E3C" rx="4 4 0 0"/>
+  <text x="950" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">🔬 SonarQube + Vuln Matrix</text>
+  <text x="868" y="402" fill="#1A2B3C" font-size="8">phase-5-vulnerability-analysis/</text>
+  <text x="868" y="416" fill="#1A2B3C" font-size="8">artifacts/attack-trees/</text>
+  <text x="868" y="430" fill="#1A2B3C" font-size="8">artifacts/reports/sonarqube.pdf</text>
+  <text x="868" y="438" fill="#7A8FA6" font-size="8">→ feeds: VI, VII</text>
+
+  <!-- S6 artifact -->
+  <rect x="1070" y="368" width="155" height="78" fill="white" rx="4" stroke="#B83232" stroke-width="1.5"/>
+  <rect x="1070" y="368" width="155" height="20" fill="#B83232" rx="4 4 0 0"/>
+  <text x="1147" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">⚔️ Attack Cases + CAPEC</text>
+  <text x="1080" y="402" fill="#1A2B3C" font-size="8">phase-6-attack-modeling/</text>
+  <text x="1080" y="416" fill="#1A2B3C" font-size="8">artifacts/scenarios/</text>
+  <text x="1080" y="430" fill="#1A2B3C" font-size="8">attack-cases-capec.md</text>
+  <text x="1080" y="438" fill="#7A8FA6" font-size="8">→ feeds: VII</text>
+
+  <!-- S7 artifact -->
+  <rect x="1252" y="368" width="138" height="78" fill="white" rx="4" stroke="#1A7A4A" stroke-width="1.5"/>
+  <rect x="1252" y="368" width="138" height="20" fill="#1A7A4A" rx="4 4 0 0"/>
+  <text x="1321" y="382" text-anchor="middle" fill="white" font-size="9" font-weight="bold">📊 Risk Report</text>
+  <text x="1262" y="402" fill="#1A2B3C" font-size="8">phase-7-risk-impact/</text>
+  <text x="1262" y="416" fill="#1A2B3C" font-size="8">artifacts/risk-analysis/</text>
+  <text x="1262" y="430" fill="#1A2B3C" font-size="8">artifacts/reports/</text>
+  <text x="1262" y="438" fill="#7A8FA6" font-size="8">→ Final output</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- RESIDUAL RISK PANEL -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="10" y="468" width="750" height="180" fill="#0D1B2A" rx="6"/>
+  <text x="385" y="490" text-anchor="middle" fill="#5FA8D3" font-size="11" font-weight="bold" letter-spacing="2">RESIDUAL RISK RESULTS — Stage VII</text>
+  <text x="385" y="508" text-anchor="middle" fill="#7A8FA6" font-size="9">Formula: RR = [(tp × vp) / c] × i</text>
+
+  <!-- Risk bars -->
+  <!-- T01 -->
+  <text x="25" y="528" fill="#A8D5F0" font-size="9" font-weight="bold">T01 — Access Control</text>
+  <rect x="25" y="532" width="490" height="14" fill="#B83232" rx="2"/>
+  <text x="522" y="543" fill="white" font-size="9" font-weight="bold">RR = 1.26 🔴</text>
+  <!-- T03 -->
+  <text x="25" y="560" fill="#A8D5F0" font-size="9" font-weight="bold">T03 — Injection</text>
+  <rect x="25" y="564" width="388" height="14" fill="#B83232" rx="2"/>
+  <text x="420" y="575" fill="white" font-size="9" font-weight="bold">RR = 1.00 🔴</text>
+  <!-- T04 -->
+  <text x="25" y="592" fill="#A8D5F0" font-size="9" font-weight="bold">T04 — Data Integrity</text>
+  <rect x="25" y="596" width="346" height="14" fill="#D4700A" rx="2"/>
+  <text x="378" y="607" fill="white" font-size="9" font-weight="bold">RR = 0.89 🔴</text>
+  <!-- T08 -->
+  <text x="25" y="624" fill="#A8D5F0" font-size="9" font-weight="bold">T08 — Logging Failures</text>
+  <rect x="25" y="628" width="280" height="14" fill="#D4700A" rx="2"/>
+  <text x="312" y="639" fill="white" font-size="9" font-weight="bold">RR = 0.72 🔴</text>
+
+  <!-- Scale -->
+  <rect x="572" y="520" width="82" height="14" fill="#1A7A4A" rx="2"/>
+  <text x="613" y="530" text-anchor="middle" fill="white" font-size="8">🟢 Low [0–0.29]</text>
+  <rect x="572" y="538" width="82" height="14" fill="#D4A017" rx="2"/>
+  <text x="613" y="548" text-anchor="middle" fill="white" font-size="8">🟡 Med [0.30–0.59]</text>
+  <rect x="572" y="556" width="82" height="14" fill="#D4700A" rx="2"/>
+  <text x="613" y="566" text-anchor="middle" fill="white" font-size="8">🔴 High [0.60–0.89]</text>
+  <rect x="572" y="574" width="82" height="14" fill="#B83232" rx="2"/>
+  <text x="613" y="584" text-anchor="middle" fill="white" font-size="8">🔴 Crit [0.90+]</text>
+
+  <text x="572" y="622" fill="#7A8FA6" font-size="8">T07: RR=0.11 🟢</text>
+  <text x="572" y="636" fill="#7A8FA6" font-size="8">T02: RR=0.54 🟡</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- SONARQUBE FINDINGS PANEL -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="775" y="468" width="290" height="180" fill="#1A2B3C" rx="6"/>
+
+  <rect x="790" y="516" width="100" height="22" fill="#B83232" rx="3"/>
+  <text x="840" y="531" text-anchor="middle" fill="white" font-size="11" font-weight="bold">4</text>
+  <text x="898" y="528" fill="#F0A0A0" font-size="10" font-weight="bold">BLOCKER</text>
+  <text x="898" y="542" fill="#A8D5F0" font-size="8.5">Hardcoded passwords in YAML/Python</text>
+
+  <rect x="790" y="548" width="100" height="22" fill="#D4700A" rx="3"/>
+  <text x="840" y="563" text-anchor="middle" fill="white" font-size="11" font-weight="bold">22</text>
+  <text x="898" y="560" fill="#FFD0A0" font-size="10" font-weight="bold">MAJOR</text>
+  <text x="898" y="574" fill="#A8D5F0" font-size="8.5">Missing resource limits; RBAC gaps</text>
+
+  <rect x="790" y="580" width="100" height="22" fill="#D4A017" rx="3"/>
+  <text x="840" y="595" text-anchor="middle" fill="white" font-size="11" font-weight="bold">10</text>
+  <text x="898" y="592" fill="#FFE88A" font-size="10" font-weight="bold">CRITICAL</text>
+  <text x="898" y="606" fill="#A8D5F0" font-size="8.5">Duplicated literals in loading.py</text>
+
+  <rect x="790" y="612" width="100" height="22" fill="#1A7A4A" rx="3"/>
+  <text x="840" y="627" text-anchor="middle" fill="white" font-size="11" font-weight="bold">4</text>
+  <text x="898" y="624" fill="#A0E0B8" font-size="10" font-weight="bold">MINOR/BUG</text>
+  <text x="898" y="638" fill="#A8D5F0" font-size="8.5">Naming conventions; self-assignment</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- METHODOLOGICAL ADAPTATIONS PANEL -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="1075" y="468" width="315" height="180" fill="#1B4965" rx="6"/>
+  <text x="1232" y="490" text-anchor="middle" fill="#A8D5F0" font-size="11" font-weight="bold" letter-spacing="1">METHODOLOGICAL ADAPTATIONS</text>
+
+  <text x="1090" y="514" fill="#5FA8D3" font-size="9" font-weight="bold">Stage II:</text>
+  <text x="1090" y="528" fill="white" font-size="8.5">UML DFDs → C4 Model (Context/Container/Component)</text>
+
+  <text x="1090" y="550" fill="#5FA8D3" font-size="9" font-weight="bold">Stage III:</text>
+  <text x="1090" y="564" fill="white" font-size="8.5">Use Cases → Interaction Scenarios (C1–C6)</text>
+  <text x="1090" y="578" fill="white" font-size="8.5">Abuse Cases → General Threat Scenarios</text>
+
+  <text x="1090" y="600" fill="#5FA8D3" font-size="9" font-weight="bold">Stage V/VI:</text>
+  <text x="1090" y="614" fill="white" font-size="8.5">Attack Tree → Structured Spreadsheet</text>
+  <text x="1090" y="628" fill="white" font-size="8.5">(fase_4_5_6_7.xlsx — full traceability)</text>
+
+  <text x="1090" y="648" fill="#FFD066" font-size="8.5" font-weight="bold">+ SonarQube SAST → Stage V integration</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- BOTTOM CAPEC + OWASP MAPPING -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="10" y="668" width="1380" height="200" fill="white" rx="6" stroke="#CBD5E0" stroke-width="1"/>
+  <rect x="10" y="668" width="1380" height="26" fill="#0D1B2A" rx="6 6 0 0"/>
+  <text x="700" y="685" text-anchor="middle" fill="#A8D5F0" font-size="11" font-weight="bold" letter-spacing="2">THREAT → VULNERABILITY → CAPEC → COUNTERMEASURE TRACEABILITY CHAIN</text>
+
+  <!-- Column headers -->
+  <rect x="10" y="694" width="1380" height="18" fill="#EAF4FB"/>
+  <text x="80" y="706" text-anchor="middle" fill="#1B4965" font-size="9" font-weight="bold">Threat ID</text>
+  <text x="220" y="706" text-anchor="middle" fill="#1B4965" font-size="9" font-weight="bold">Threat Name</text>
+  <text x="385" y="706" text-anchor="middle" fill="#6B3FA0" font-size="9" font-weight="bold">CAPEC</text>
+  <text x="490" y="706" text-anchor="middle" fill="#8B5E3C" font-size="9" font-weight="bold">SonarQube Finding</text>
+  <text x="690" y="706" text-anchor="middle" fill="#B83232" font-size="9" font-weight="bold">Priority Attack Vector</text>
+  <text x="970" y="706" text-anchor="middle" fill="#1A7A4A" font-size="9" font-weight="bold">Countermeasure</text>
+  <text x="1280" y="706" text-anchor="middle" fill="#1A7A4A" font-size="9" font-weight="bold">Strategy</text>
+
+  <!-- Rows -->
+  <!-- T01 -->
+  <rect x="10" y="712" width="1380" height="22" fill="#FFF5F5"/>
+  <rect x="10" y="712" width="5" height="22" fill="#B83232"/>
+  <text x="80" y="726" text-anchor="middle" fill="#B83232" font-size="9" font-weight="bold">T01</text>
+  <text x="220" y="726" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Access Control Failures</text>
+  <text x="385" y="726" text-anchor="middle" fill="#6B3FA0" font-size="8.5">CAPEC-1</text>
+  <text x="490" y="726" text-anchor="middle" fill="#B83232" font-size="8.5">BLOCKER: passwords in cm.yaml</text>
+  <text x="690" y="726" text-anchor="middle" fill="#1A2B3C" font-size="8.5">ACL bypass in Iceberg/S3</text>
+  <text x="970" y="726" text-anchor="middle" fill="#1A2B3C" font-size="8.5">RBAC via Apache Ranger + Kubernetes Secrets</text>
+  <rect x="1245" y="714" width="60" height="16" fill="#D4700A" rx="3"/>
+  <text x="1275" y="725" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Mitigate</text>
+  <!-- T03 -->
+  <rect x="10" y="734" width="1380" height="22" fill="white"/>
+  <rect x="10" y="734" width="5" height="22" fill="#D4700A"/>
+  <text x="80" y="748" text-anchor="middle" fill="#D4700A" font-size="9" font-weight="bold">T03</text>
+  <text x="220" y="748" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Injection (SQL/API)</text>
+  <text x="385" y="748" text-anchor="middle" fill="#6B3FA0" font-size="8.5">CAPEC-66</text>
+  <text x="490" y="748" text-anchor="middle" fill="#1A7A4A" font-size="8.5">No injection detected ✓</text>
+  <text x="690" y="748" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Inputs via APIs or Superset</text>
+  <text x="970" y="748" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Prepared Statements + JSON Schema validation</text>
+  <rect x="1245" y="736" width="60" height="16" fill="#1A7A4A" rx="3"/>
+  <text x="1275" y="747" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Accept</text>
+  <!-- T05 -->
+  <rect x="10" y="756" width="1380" height="22" fill="#FFF5F5"/>
+  <rect x="10" y="756" width="5" height="22" fill="#B83232"/>
+  <text x="80" y="770" text-anchor="middle" fill="#B83232" font-size="9" font-weight="bold">T05</text>
+  <text x="220" y="770" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Security Misconfiguration</text>
+  <text x="385" y="770" text-anchor="middle" fill="#6B3FA0" font-size="8.5">CAPEC-212</text>
+  <text x="490" y="770" text-anchor="middle" fill="#B83232" font-size="8.5">BLOCKER: passwords in YAMLs</text>
+  <text x="690" y="770" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Plaintext credentials in K8s manifests</text>
+  <text x="970" y="770" text-anchor="middle" fill="#1A2B3C" font-size="8.5">HashiCorp Vault + Kubernetes Secrets</text>
+  <rect x="1245" y="758" width="60" height="16" fill="#D4700A" rx="3"/>
+  <text x="1275" y="769" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Mitigate</text>
+  <!-- T07 -->
+  <rect x="10" y="778" width="1380" height="22" fill="white"/>
+  <rect x="10" y="778" width="5" height="22" fill="#D4A017"/>
+  <text x="80" y="792" text-anchor="middle" fill="#D4A017" font-size="9" font-weight="bold">T07</text>
+  <text x="220" y="792" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Authentication &amp; Session Failures</text>
+  <text x="385" y="792" text-anchor="middle" fill="#6B3FA0" font-size="8.5">CAPEC-115</text>
+  <text x="490" y="792" text-anchor="middle" fill="#D4700A" font-size="8.5">MAJOR: RBAC incomplete (Service Acct)</text>
+  <text x="690" y="792" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Exposed tokens; no MFA on interfaces</text>
+  <text x="970" y="792" text-anchor="middle" fill="#1A2B3C" font-size="8.5">MFA mandatory + 90-day key rotation</text>
+  <rect x="1245" y="780" width="60" height="16" fill="#D4700A" rx="3"/>
+  <text x="1275" y="791" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Mitigate</text>
+  <!-- T09 -->
+  <rect x="10" y="800" width="1380" height="22" fill="#FFF5F5"/>
+  <rect x="10" y="800" width="5" height="22" fill="#6B3FA0"/>
+  <text x="80" y="814" text-anchor="middle" fill="#6B3FA0" font-size="9" font-weight="bold">T09</text>
+  <text x="220" y="814" text-anchor="middle" fill="#1A2B3C" font-size="8.5">SSRF</text>
+  <text x="385" y="814" text-anchor="middle" fill="#6B3FA0" font-size="8.5">CAPEC-664</text>
+  <text x="490" y="814" text-anchor="middle" fill="#D4700A" font-size="8.5">MAJOR: missing resource limits</text>
+  <text x="690" y="814" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Requests via Airflow/API endpoints</text>
+  <text x="970" y="814" text-anchor="middle" fill="#1A2B3C" font-size="8.5">Kubernetes Network Policies; egress filtering</text>
+  <rect x="1245" y="802" width="60" height="16" fill="#D4700A" rx="3"/>
+  <text x="1275" y="813" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Mitigate</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="0" y="874" width="1400" height="46" fill="#0D1B2A"/>
+  <text x="700" y="892" text-anchor="middle" fill="#5FA8D3" font-size="10">PASTA Applied to reBi0s — Risk-Centric Threat Modeling · UcedaVélez &amp; Morana (2015)</text>
+  <text x="700" y="910" text-anchor="middle" fill="#7A8FA6" font-size="9">OWASP Top 10 (2021) · OWASP Data Security Top 10 (2023) · STRIDE · CAPEC · SonarQube SAST · C4 Model</text>
+
+</svg>
