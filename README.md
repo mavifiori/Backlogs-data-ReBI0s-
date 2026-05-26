@@ -33,7 +33,7 @@ Instituto de Computação — Campinas, SP, Brazil
 </div>
 
 > **Citation:**
-> Fiori, M. V. S. (2025). *Assessing Architectural Security in Scientific Repositories:
+> Fiori, M. V. S. (2026). *Assessing Architectural Security in Scientific Repositories:
 > An Action-Research Approach*. Dissertação (Mestrado) — Instituto de Computação,
 > Universidade Estadual de Campinas (UNICAMP), Campinas, SP.
 
