@@ -23,9 +23,9 @@
 
 | Role | Name | Institution |
 |------|------|-------------|
-| **Researcher / Facilitator** | Maria Victoria Soares Fiori | UNICAMP — Instituto de Computação |
-| **Advisor** | Prof. Dr. Breno Bernard Nicolau de França | UNICAMP — Instituto de Computação |
-| **Co-Advisor** | Prof. Dr. José Alexandre D'Abruzzo Pereira | UNICAMP — Instituto de Computação |
+| **Facilitator** | Maria Victoria Soares Fiori | UNICAMP — Instituto de Computação |
+| **Orientador** | Prof. Dr. Breno Bernard Nicolau de França | UNICAMP — Instituto de Computação |
+| **Co-Orientador** | Prof. Dr. José Alexandre D'Abruzzo Pereira | UNICAMP — Instituto de Computação |
 
 **Universidade Estadual de Campinas (UNICAMP)**  
 Instituto de Computação — Campinas, SP, Brazil
@@ -101,7 +101,7 @@ PASTA (*Process for Attack Simulation and Threat Analysis*) is a **risk-centric,
 
 | Dimension | Traditional Approach | PASTA (Risk-Centric) |
 |-----------|---------------------|----------------------|
-| Starting point | Architecture / DFD | Business Objectives (Stage I) |
+| Starting point | Architecture / C4 | Business Objectives (Stage I) |
 | Dominant perspective | Technical / software-centric | Business + technical + threat |
 | Risk quantification | Qualitative or absent | Formula: `RS = (PV × PA × I) / C` |
 | Primary output | Threat list + mitigations | Quantified residual risk profile |
