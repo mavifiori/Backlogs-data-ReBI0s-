@@ -48,7 +48,7 @@ Each entry follows the structure:
 | Data flow exercise | 🔄 **Adapted** | DFD exercise replaced by C4 Container diagram (Stage II) + data flow narrative in interaction scenarios |
 | **UML Use Case Diagrams** | 🔄 **Adapted → Interaction Scenarios** | Replaced by 6 descriptive interaction scenarios (C1–C6). Rationale: formal UML use cases would add notation overhead without improving threat identification for a data pipeline architecture. Scenarios preserve the same semantic coverage (actor, system, interaction, outcome) with less formalism. |
 | **UML Abuse Case Diagrams** | 🔄 **Adapted → Threat Scenarios per Scenario** | Replaced by threat mapping embedded within each interaction scenario. Each scenario (C1–C6) includes a table of applicable threats (T01–T15). Rationale: abuse cases in UML are rarely used in data engineering contexts; threat-per-scenario tables provide more direct traceability to Stage IV. |
-| Trust Boundaries definition | 🔄 **Adapted → Threat Scenarios per Scenario**| 4 Trust Boundaries mapped: Governança, Curadoria, Colaboração Aberta, Armazenamento/Consumo |
+| Trust Boundaries definition | 🔄 **Adapted → Threat Scenarios per Scenario**| 4 Threat Scenarios mapped: Governança, Curadoria, Colaboração Aberta, Armazenamento/Consumo |
 | Security functional analysis | ✅ **Used as-is** | Security controls documented |
 
 ---
